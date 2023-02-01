@@ -6,7 +6,9 @@ ___
 * it provides an API similar to Keras
 
 ## Quick Start
-u will need CUDA installed to be able to use the library.
+u will need CUDA installed to be able to use the library, and cmake to build it.    
+first: download the mnist dataset in csv format from [here](https://drive.google.com/file/d/1gPYcymF429lVnvRKQoPR1Rm4ITgPrzx6/view?usp=sharing) and put it inside *data* folder.  
+then run the following:
 ``` bash
 git clone https://github.com/AhmedGhazale/NeuralNetworksInCUDA.git
 cd NeuralNetworksInCUDA
@@ -73,6 +75,5 @@ U need to add the include directory to ur project.
 
 ## Supported Loss Funcitons
 * u can only train a regression model using MSE as a loss function.
-
 
 
